@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:  Roboto, sans-serif;
+}
+
+/*************************** util css  strat (for re-use)****************** */    
+.mx-auto{
+    margin:  auto;
+}
+
+.flex{
+display: flex;
+}
+
+.flex-col{
+flex-direction: column;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 45%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+   width: 66px;
+}
+
+.item-center{
+    align-items: center;
+}
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+    width: 100%;
+    margin: 10px 0;
+    height: 60px;
+    padding: 0px 12px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.bg-all{
+    background-color: rgb(32, 156, 156);
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1{
+    color: white;
+    margin: 0 auto;
+    background-color: black;
+   text-align: center;
+    padding: 10px 40px;
+    width: 100%;
+
+  
+}
+
+footer{
+
+
+    background-color: rgba(0, 0, 0, 0.695);
+    margin-top: 60px;
+color: red;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    width: 100%;
+    height: 35px;
+   
+}
+
+footer h2{
+    color: white;
+}
+
